@@ -3,3 +3,4 @@ Options All -Indexes
 RewriteEngine On
 
 RewriteRule ^([-a-zA-Z0-9]+)$ index.php?ruta=$1
+Aplication AddType / x-httpd-php .php .htm .html AddHandler x-httpd-php .php .htm .html
